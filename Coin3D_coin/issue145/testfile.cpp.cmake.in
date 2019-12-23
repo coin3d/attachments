@@ -1,0 +1,22 @@
+@COIN_TESTSUITE_DECLARATION_HEADER@
+
+#define BOOST_TEST_NO_LIB 1
+#include <boost/test/unit_test.hpp>
+#include <boost/intrusive_ptr.hpp>
+
+#include <cassert>
+#include <cstdio>
+#include <iostream>
+
+#include <TestSuiteUtils.h>
+#include <TestSuiteMisc.h>
+
+@COIN_TESTSUITE_OTHER_HEADERS@
+
+using namespace SIM::Coin3D::Coin;
+
+BOOST_AUTO_TEST_SUITE(${_class_name}_TestSuite);
+
+@COIN_STR_SOURCE_CODE@
+
+BOOST_AUTO_TEST_SUITE_END();
