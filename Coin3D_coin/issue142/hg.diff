@@ -1,0 +1,84 @@
+# HG changeset patch
+# User looooo <sppedflyer@gmail.com>
+# Date 1520335793 -3600
+#      Tue Mar 06 12:29:53 2018 +0100
+# Branch CMake
+# Node ID dead8aca0fbff74020990ea06fb52222b6aa203d
+# Parent  7e191c8f6a31a1e39b8a6ce9d777147f6cce2ffd
+allow to use external expat
+
+diff -r 7e191c8f6a31 -r dead8aca0fbf CMakeLists.txt
+--- a/CMakeLists.txt	Thu Feb 15 21:16:20 2018 +0000
++++ b/CMakeLists.txt	Tue Mar 06 12:29:53 2018 +0100
+@@ -86,6 +86,7 @@
+ option(HAVE_3DS_IMPORT_CAPABILITIES "3ds import capabilities." ON)
+ option(SIMAGE_RUNTIME_LINKING "Runtime linkage of simage library.")
+ option(HAVE_MAN "build and install Coin man pages.")
++option(USE_EXTERNAL_EXPAT "use a system expat" ON)
+ 
+ if(NOT SIMAGE_RUNTIME_LINKING)
+ 	find_package(simage)
+@@ -96,6 +97,10 @@
+ 	endif()
+ endif()
+ 
++if (USE_EXTERNAL_EXPAT)
++	find_package(EXPAT)
++endif()
++
+ # Checks all specified types for existence and sets variable and sets a variable HAVE_<type_name>
+ # if so. Additionally a variable named <type_name> is set to the size of the type.
+ # Moreover, ${TYPE_VARIABLE} will be set to the first type matching the specified ${TYPE_SIZE}.
+diff -r 7e191c8f6a31 -r dead8aca0fbf src/CMakeLists.txt
+--- a/src/CMakeLists.txt	Thu Feb 15 21:16:20 2018 +0000
++++ b/src/CMakeLists.txt	Tue Mar 06 12:29:53 2018 +0100
+@@ -50,6 +50,9 @@
+ 	endif()
+ else()
+ 	if(COIN_BUILD_SHARED_LIBS)
++		if(NOT EXPAT_FOUND)
++			set(expat_target $<TARGET_OBJECTS:expat>)
++		endif()
+ 		if(WIN32 AND COIN_BUILD_SHARED_LIBS)
+ 			set(COIN_SOURCE tidbits.cpp ${CMAKE_CURRENT_BINARY_DIR}/Coin.rc)
+ 		else()
+@@ -68,7 +71,7 @@
+ 			$<TARGET_OBJECTS:engines>
+ 			$<TARGET_OBJECTS:errors>
+ 			$<TARGET_OBJECTS:events>
+-			$<TARGET_OBJECTS:expat>
++			${expat_target}
+ 			$<TARGET_OBJECTS:fields>
+ 			$<TARGET_OBJECTS:fonts>
+ 			$<TARGET_OBJECTS:foreignfiles>
+@@ -112,7 +115,7 @@
+ 			$<TARGET_OBJECTS:engines>
+ 			$<TARGET_OBJECTS:errors>
+ 			$<TARGET_OBJECTS:events>
+-			$<TARGET_OBJECTS:expat>
++			${expat_target}
+ 			$<TARGET_OBJECTS:fields>
+ 			$<TARGET_OBJECTS:fonts>
+ 			$<TARGET_OBJECTS:foreignfiles>
+@@ -155,6 +158,10 @@
+ 	target_link_libraries(Coin simage::simage)
+ endif()
+ 
++if (EXPAT_FOUND)
++	target_link_libraries(Coin ${EXPAT_LIBRARIES})
++endif()
++
+ find_package(OpenGL)
+ target_link_libraries(Coin ${OPENGL_LIBRARIES})
+ target_include_directories(Coin INTERFACE $<INSTALL_INTERFACE:$<INSTALL_PREFIX>/${CMAKE_INSTALL_INCLUDEDIR}>)
+diff -r 7e191c8f6a31 -r dead8aca0fbf src/xml/CMakeLists.txt
+--- a/src/xml/CMakeLists.txt	Thu Feb 15 21:16:20 2018 +0000
++++ b/src/xml/CMakeLists.txt	Tue Mar 06 12:29:53 2018 +0100
+@@ -1,4 +1,6 @@
+-add_subdirectory(expat)
++if(NOT EXPAT_FOUND)
++	add_subdirectory(expat)
++endif()
+ 
+ # source files
+ set(COIN_XML_FILES
