@@ -1,0 +1,77 @@
+#Inventor V2.1 ascii
+
+
+Separator {
+
+  DirectionalLight {
+    intensity 1
+    direction -1 -1 -1
+
+  }
+  Switch {
+    whichChild 1
+
+    DEF PerspCam PerspectiveCamera {
+      position 0 0 10
+      orientation 0 0 1  0
+      nearDistance 1
+      farDistance 20
+      focalDistance 10
+
+    }
+    DEF RevPerspCam PerspectiveCamera {
+      position 0 0 -10
+      orientation 0 0 1  3.1415901
+      nearDistance -20
+      farDistance -1
+      focalDistance -10
+
+    }
+  }
+  Group {
+
+    TransformBoxManip {
+      translation -0.31656781 -0.066467911 -0.29636008
+      rotation 0.71638566 -0.6976245 -0.010522558  0.51494074
+      scaleFactor 1.000002 1.0000018 1.0000015
+      scaleOrientation 0.75115556 -0.21339476 0.62468159  0.45378774
+
+    }
+    Complexity {
+      type OBJECT_SPACE
+      value 0.5
+      textureQuality 0.1
+
+    }
+    Texture2Transform {
+      scaleFactor 1.5 1.5
+
+    }
+    Texture2 {
+      image 2 2 3
+      0xffffff 0x808080 0x808080 0xffffff 
+
+    }
+    MaterialBinding {
+      value PER_FACE
+
+    }
+    Material {
+      ambientColor 0.2 0.2 0.2
+      diffuseColor [ 1 0 0,
+          0 1 1,
+          1 0 1,
+          0 1 0,
+          0 0 1,
+          1 1 0 ]
+      transparency 0
+
+    }
+    Cube {
+      width 3
+      height 3
+      depth 3
+
+    }
+  }
+}
