@@ -1,0 +1,25 @@
+#Inventor V2.1 ascii
+
+
+Separator {
+
+  DirectionalLight {
+
+  }
+  OrthographicCamera {
+    position 0 0 20000
+    farDistance 60000
+    height 5
+
+  }
+  Material {
+    diffuseColor 1 0 0
+
+  }
+  TrackballManip {
+
+  }
+  Cube {
+
+  }
+}
