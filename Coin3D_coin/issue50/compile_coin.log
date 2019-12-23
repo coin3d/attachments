@@ -1,0 +1,464 @@
+config.status: creating include/Inventor/C/basic.h
+config.status: include/Inventor/C/basic.h is unchanged
+config.status: creating include/Inventor/system/gl-headers.h.new
+include/Inventor/system/gl-headers.h is unchanged
+config.status: creating include/Inventor/system/inttypes.h
+config.status: include/Inventor/system/inttypes.h is unchanged
+config.status: creating coin-default.cfg
+config.status: creating Info.plist
+config.status: creating version.plist
+make  all-recursive
+make[1]: Entering directory `/home/user/Downloads/Coin-3.1.3'
+Making all in .
+make[2]: Entering directory `/home/user/Downloads/Coin-3.1.3'
+config.status: creating Coin.pc
+make[2]: Leaving directory `/home/user/Downloads/Coin-3.1.3'
+Making all in bin
+make[2]: Entering directory `/home/user/Downloads/Coin-3.1.3/bin'
+make[2]: Für das Ziel »all« ist nichts zu tun.
+make[2]: Leaving directory `/home/user/Downloads/Coin-3.1.3/bin'
+Making all in include
+make[2]: Entering directory `/home/user/Downloads/Coin-3.1.3/include'
+Making all in Inventor
+make[3]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor'
+Making all in C
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C'
+make  all-recursive
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C'
+Making all in XML
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C/XML'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C/XML'
+Making all in base
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C/base'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C/base'
+Making all in errors
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C/errors'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C/errors'
+Making all in glue
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C/glue'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C/glue'
+Making all in threads
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C/threads'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C/threads'
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C'
+make[6]: Für das Ziel »all-am« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C'
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C'
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/C'
+Making all in VRMLnodes
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/VRMLnodes'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/VRMLnodes'
+Making all in XML
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/XML'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/XML'
+Making all in actions
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/actions'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/actions'
+Making all in annex
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex'
+Making all in HardCopy
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/HardCopy'
+make[5]: Für das Ziel »all« ist nichts zu tun.
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/HardCopy'
+Making all in ForeignFiles
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/ForeignFiles'
+make[5]: Für das Ziel »all« ist nichts zu tun.
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/ForeignFiles'
+Making all in FXViz
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/FXViz'
+Making all in nodes
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/FXViz/nodes'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/FXViz/nodes'
+Making all in elements
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/FXViz/elements'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/FXViz/elements'
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/FXViz'
+make[6]: Für das Ziel »all-am« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/FXViz'
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/FXViz'
+Making all in Profiler
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler'
+Making all in nodes
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler/nodes'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler/nodes'
+Making all in elements
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler/elements'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler/elements'
+Making all in nodekits
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler/nodekits'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler/nodekits'
+Making all in engines
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler/engines'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler/engines'
+Making all in utils
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler/utils'
+make[6]: Für das Ziel »all« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler/utils'
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler'
+make[6]: Für das Ziel »all-am« ist nichts zu tun.
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler'
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex/Profiler'
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex'
+make[5]: Für das Ziel »all-am« ist nichts zu tun.
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex'
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/annex'
+Making all in bundles
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/bundles'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/bundles'
+Making all in caches
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/caches'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/caches'
+Making all in collision
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/collision'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/collision'
+Making all in details
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/details'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/details'
+Making all in draggers
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/draggers'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/draggers'
+Making all in elements
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/elements'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/elements'
+Making all in engines
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/engines'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/engines'
+Making all in errors
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/errors'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/errors'
+Making all in events
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/events'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/events'
+Making all in fields
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/fields'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/fields'
+Making all in lists
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/lists'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/lists'
+Making all in lock
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/lock'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/lock'
+Making all in manips
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/manips'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/manips'
+Making all in misc
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/misc'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/misc'
+Making all in nodekits
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/nodekits'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/nodekits'
+Making all in nodes
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/nodes'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/nodes'
+Making all in projectors
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/projectors'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/projectors'
+Making all in sensors
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/sensors'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/sensors'
+Making all in system
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/system'
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3'
+config.status: creating include/Inventor/system/gl-headers.h.new
+include/Inventor/system/gl-headers.h is unchanged
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3'
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3'
+config.status: creating include/Inventor/system/inttypes.h
+config.status: include/Inventor/system/inttypes.h is unchanged
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3'
+make  all-am
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/system'
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3'
+config.status: creating include/Inventor/system/gl-headers.h.new
+include/Inventor/system/gl-headers.h is unchanged
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3'
+make[6]: Entering directory `/home/user/Downloads/Coin-3.1.3'
+config.status: creating include/Inventor/system/inttypes.h
+config.status: include/Inventor/system/inttypes.h is unchanged
+make[6]: Leaving directory `/home/user/Downloads/Coin-3.1.3'
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/system'
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/system'
+Making all in threads
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/threads'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/threads'
+Making all in tools
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/tools'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/tools'
+Making all in scxml
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/scxml'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor/scxml'
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/include/Inventor'
+make[4]: Für das Ziel »all-am« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor'
+make[3]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include/Inventor'
+make[3]: Entering directory `/home/user/Downloads/Coin-3.1.3/include'
+make[3]: Für das Ziel »all-am« ist nichts zu tun.
+make[3]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include'
+make[2]: Leaving directory `/home/user/Downloads/Coin-3.1.3/include'
+Making all in data
+make[2]: Entering directory `/home/user/Downloads/Coin-3.1.3/data'
+Making all in draggerDefaults
+make[3]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/draggerDefaults'
+make  all-am
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/draggerDefaults'
+make[4]: Für das Ziel »all-am« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/draggerDefaults'
+make[3]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/draggerDefaults'
+Making all in shaders
+make[3]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/shaders'
+Making all in lights
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/shaders/lights'
+make  all-am
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/shaders/lights'
+make[5]: Für das Ziel »all-am« ist nichts zu tun.
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/shaders/lights'
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/shaders/lights'
+Making all in vsm
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/shaders/vsm'
+make  all-am
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/shaders/vsm'
+make[5]: Für das Ziel »all-am« ist nichts zu tun.
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/shaders/vsm'
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/shaders/vsm'
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/shaders'
+make[4]: Für das Ziel »all-am« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/shaders'
+make[3]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/shaders'
+Making all in scxml
+make[3]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/scxml'
+Making all in navigation
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/scxml/navigation'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/scxml/navigation'
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/data/scxml'
+make[4]: Für das Ziel »all-am« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/scxml'
+make[3]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data/scxml'
+make[3]: Entering directory `/home/user/Downloads/Coin-3.1.3/data'
+make[3]: Für das Ziel »all-am« ist nichts zu tun.
+make[3]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data'
+make[2]: Leaving directory `/home/user/Downloads/Coin-3.1.3/data'
+Making all in src
+make[2]: Entering directory `/home/user/Downloads/Coin-3.1.3/src'
+make  all-recursive
+make[3]: Entering directory `/home/user/Downloads/Coin-3.1.3/src'
+Making all in extensions
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/extensions'
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/extensions'
+make[5]: Für das Ziel »all-am« ist nichts zu tun.
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/extensions'
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/extensions'
+Making all in xml
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/xml'
+Making all in expat
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/xml/expat'
+make[5]: Für das Ziel »all« ist nichts zu tun.
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/xml/expat'
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/xml'
+make[5]: Für das Ziel »all-am« ist nichts zu tun.
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/xml'
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/xml'
+Making all in actions
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/actions'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/actions'
+Making all in base
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/base'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/base'
+Making all in bundles
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/bundles'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/bundles'
+Making all in caches
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/caches'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/caches'
+Making all in details
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/details'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/details'
+Making all in draggers
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/draggers'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/draggers'
+Making all in elements
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/elements'
+Making all in GL
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/elements/GL'
+make[5]: Für das Ziel »all« ist nichts zu tun.
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/elements/GL'
+make[5]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/elements'
+make[5]: Für das Ziel »all-am« ist nichts zu tun.
+make[5]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/elements'
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/elements'
+Making all in engines
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/engines'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/engines'
+Making all in errors
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/errors'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/errors'
+Making all in events
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/events'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/events'
+Making all in fields
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/fields'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/fields'
+Making all in fonts
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/fonts'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/fonts'
+Making all in glue
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/glue'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/glue'
+Making all in io
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/io'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/io'
+Making all in manips
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/manips'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/manips'
+Making all in misc
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/misc'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/misc'
+Making all in lists
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/lists'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/lists'
+Making all in nodekits
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/nodekits'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/nodekits'
+Making all in navigation
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/navigation'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/navigation'
+Making all in nodes
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/nodes'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/nodes'
+Making all in shapenodes
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/shapenodes'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/shapenodes'
+Making all in projectors
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/projectors'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/projectors'
+Making all in sensors
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/sensors'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/sensors'
+Making all in upgraders
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/upgraders'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/upgraders'
+Making all in 3ds
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/3ds'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/3ds'
+Making all in collision
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/collision'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/collision'
+Making all in hardcopy
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/hardcopy'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/hardcopy'
+Making all in shadows
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/shadows'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/shadows'
+Making all in geo
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/geo'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/geo'
+Making all in threads
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/threads'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/threads'
+Making all in shaders
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/shaders'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/shaders'
+Making all in profiler
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/profiler'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/profiler'
+Making all in vrml97
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/vrml97'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/vrml97'
+Making all in foreignfiles
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/foreignfiles'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/foreignfiles'
+Making all in scxml
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/scxml'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/scxml'
+Making all in doc
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src/doc'
+make[4]: Für das Ziel »all« ist nichts zu tun.
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src/doc'
+Making all in .
+make[4]: Entering directory `/home/user/Downloads/Coin-3.1.3/src'
+/bin/sh ../libtool --mode=link g++  -g -O2 -W -Wall -Wno-unused -Wno-multichar -Woverloaded-virtual  -fno-builtin -finline-functions -Wreturn-type -Wchar-subscripts -Wparentheses   -o libCoin.la -rpath /usr/local/lib -no-undefined -version-info 61:3:1 tidbits.lo CoinGLPerformance.lo actions/libactions.la base/libbase.la bundles/libbundles.la caches/libcaches.la elements/libelements.la elements/GL/libglelements.la engines/libengines.la errors/liberrors.la events/libevents.la fields/libfields.la fonts/libfonts.la glue/libglue.la io/libio.la misc/libmisc.la lists/liblists.la nodekits/libnodekits.la nodes/libnodes.la shapenodes/libshapenodes.la projectors/libprojectors.la sensors/libsensors.la details/libdetails.la draggers/libdraggers.la manips/libmanips.la upgraders/libupgraders.la navigation/libnavigation.la 3ds/libformat3ds.la collision/libcollision.la hardcopy/libhardcopy.la threads/libthreads.la shaders/libshaders.la shadows/libshadows.la geo/libgeo.la foreignfiles/libforeignfiles.la xml/libxml.la xml/expat/libexpat.la profiler/libprofiler.la vrml97/libvrml97.la scxml/libscxml.la  -lGL -lXext -lSM -lICE -lX11 -ldl -lpthread
+g++ -shared -nostdlib /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbeginS.o  .libs/tidbits.o .libs/CoinGLPerformance.o -Wl,--whole-archive actions/.libs/libactions.a base/.libs/libbase.a bundles/.libs/libbundles.a caches/.libs/libcaches.a elements/.libs/libelements.a elements/GL/.libs/libglelements.a engines/.libs/libengines.a errors/.libs/liberrors.a events/.libs/libevents.a fields/.libs/libfields.a fonts/.libs/libfonts.a glue/.libs/libglue.a io/.libs/libio.a misc/.libs/libmisc.a lists/.libs/liblists.a nodekits/.libs/libnodekits.a nodes/.libs/libnodes.a shapenodes/.libs/libshapenodes.a projectors/.libs/libprojectors.a sensors/.libs/libsensors.a details/.libs/libdetails.a draggers/.libs/libdraggers.a manips/.libs/libmanips.a upgraders/.libs/libupgraders.a navigation/.libs/libnavigation.a 3ds/.libs/libformat3ds.a collision/.libs/libcollision.a hardcopy/.libs/libhardcopy.a threads/.libs/libthreads.a shaders/.libs/libshaders.a shadows/.libs/libshadows.a geo/.libs/libgeo.a foreignfiles/.libs/libforeignfiles.a xml/.libs/libxml.a xml/expat/.libs/libexpat.a profiler/.libs/libprofiler.a vrml97/.libs/libvrml97.a scxml/.libs/libscxml.a -Wl,--no-whole-archive  /usr/lib/libGL.so -L/usr/X11R6/lib -lXext -lSM -lICE -lX11 -ldl -lpthread -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtendS.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o  -Wl,-soname -Wl,libCoin.so.60 -o .libs/libCoin.so.60.1.3
+/usr/lib/libGL.so: could not read symbols: File in wrong format
+collect2: ld returned 1 exit status
+make[4]: *** [libCoin.la] Fehler 1
+make[4]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src'
+make[3]: *** [all-recursive] Fehler 1
+make[3]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src'
+make[2]: *** [all] Fehler 2
+make[2]: Leaving directory `/home/user/Downloads/Coin-3.1.3/src'
+make[1]: *** [all-recursive] Fehler 1
+make[1]: Leaving directory `/home/user/Downloads/Coin-3.1.3'
+make: *** [all] Fehler 2
+/home/xxxxx/xxxx-xxx+0.00.000/xxxx-xxxx+0.00.000:/home/xxxxx/xxxx-xxx+0.00.000/xxxx-xxx+0.00.000/xxxx/bin:/home/xxxxx/xxxx-xxx+0.00.000/xxxx-xxx+0.00.000/xxxx/bin:/opt/xx-xxxxxx/xxxx-xxxx+0.00.000:/opt/xx-xxxxxx/xxxx-xxx+0.00.000/xxxx/bin:/opt/xx-xxxxxx/xxxx-xxxx+0.00.000:/opt/xx-xxxxxx/xxxx-xxx+0.00.000/xxxx/bin:/opt/xx-xxxxxx/xxxx-xxxx+0.00.000:/opt/xx-xxxxxx/xxxx-xxx+0.00.000/xxxx/bin:/opt/xx-xxxxxx/xxxx-xxxx+0.00.000:/opt/xx-xxxxxx/xxxx-xxx+0.00.000/xxxx/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/xxxx/bin
+
+/usr/local/bin IS in PATH - thats the output of echo $PATH (just changed some names, but
+I leave the lenght of number and letter-patterns if there is anything to try)
