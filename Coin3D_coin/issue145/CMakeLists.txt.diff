@@ -1,0 +1,66 @@
+diff -r 910cfb35969f CMakeLists.txt
+--- a/CMakeLists.txt	Wed Mar 21 20:05:21 2018 +0000
++++ b/CMakeLists.txt	Fri Mar 23 19:53:41 2018 +0100
+@@ -1,5 +1,8 @@
+ cmake_minimum_required(VERSION 2.8.12)
++
+ project(Coin)
++enable_testing()
++
+ set (COIN_MAJOR_VERSION 4)
+ set (COIN_MINOR_VERSION 0)
+ set (COIN_MICRO_VERSION 0)
+@@ -49,6 +52,14 @@
+ 
+ include(GNUInstallDirs)
+ 
++if ( ${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR} )
++  message(FATAL_ERROR "${CMAKE_PROJECT_NAME} requires an out of source build. Please create a separate build directory and run 'cmake <path_to_${CMAKE_PROJECT_NAME}> [options]' there.")
++endif()
++
++set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
++set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
++set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
++
+ if (COIN_MULTIPLE_VERSION)
+   # modifies the installation path for both the distributed includes and docs
+   versionize(INCLUDEDIR DOCDIR)
+diff -r 910cfb35969f testsuite/CMakeLists.txt
+--- a/testsuite/CMakeLists.txt	Wed Mar 21 20:05:21 2018 +0000
++++ b/testsuite/CMakeLists.txt	Fri Mar 23 19:53:41 2018 +0100
+@@ -16,15 +16,15 @@
+         string(REGEX MATCHALL "#include[ \t]<[^\n]+" i0 "${f2}")
+         string(REPLACE ";" "\n" COIN_STR_TEST_INCL "${i0}")
+         set(COIN_STR_TEST_INCL "${iclass}\n${COIN_STR_TEST_INCL}")
+-        # remove #inlcude statements from test code string (moved to ${COIN_STR_TEST_INCL})
++        # remove #include statements from test code string (moved to ${COIN_STR_TEST_INCL})
+         string(REGEX REPLACE "[\n\r ]*#include[ \t]<[^\n]+" "" COIN_STR_TEST_CODE "${f2}")
+-        # generate new test code file with extacted snippets
++        # generate new test code file with extracted snippets
+         configure_file(TestSuiteTemplate.cmake.in "${FLSUBFLD}${FLNAME}Test.cpp")
+     endif()
+ endmacro()
+ 
+ macro(create_file_test input testfunc filter)
+-    file(GLOB_RECURSE COIN_IV_FILES RELATIVE ${CMAKE_SOURCE_DIR} ../${input}/*.wrl ../${input}/*.wrml ../${input}/*.gz ../${input}/*.iv)
++    file(GLOB_RECURSE COIN_IV_FILES RELATIVE ${CMAKE_SOURCE_DIR} ../${input}/*.wrl ../${input}/*.vrml ../${input}/*.gz ../${input}/*.iv)
+     string(REGEX REPLACE "[\\./\\-]+" "" TESTSUITENAME "${input}")
+     set(COIN_STR_TEST_INCL "")
+     set(COIN_STR_TEST_CODE "const char *readError[] = { \"Coin read error:\", 0 };\n")
+@@ -48,7 +48,7 @@
+ 
+ if(COIN_BUILD_TESTS)
+     # Parse all source files for embedded '#ifdef COIN_TEST_SUITE' and extract those blocks
+-    # to spearate test source files.
++    # to separate test source files.
+     file(GLOB_RECURSE COIN_SRC_FILES RELATIVE ${CMAKE_SOURCE_DIR} ../src/*.cpp)
+     foreach(INPUTFILE ${COIN_SRC_FILES})
+         create_testsuite(${INPUTFILE})
+@@ -72,6 +72,7 @@
+     include_directories(${CMAKE_BINARY_DIR}/include)
+     add_executable(CoinTests TestSuiteMain.cpp TestSuiteUtils.cpp TestSuiteMisc.cpp ${TEST_SOURCES})
+     target_link_libraries(CoinTests Coin)
++    add_test(NAME testsuite COMMAND CoinTests)
+ 
+     # Many warnings are generated from test macros on macOS with Xcode.
+     include(CheckCXXCompilerFlag)
