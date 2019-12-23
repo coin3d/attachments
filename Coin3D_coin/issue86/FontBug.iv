@@ -1,0 +1,31 @@
+#Inventor V2.1 ascii
+
+Separator {
+  DirectionalLight {
+  }
+  OrthographicCamera {
+    position 0 0 5.4783163
+    nearDistance 0
+    farDistance 10.956633
+    focalDistance 5.4783163
+    height 20.616844
+  }
+  FontStyle {
+    size 16 =
+    Calculator {
+      A 0 0 0 =
+      DEF _+0 DragPointDragger {
+      }      . translation
+      expression "oa = 16 + A[1]"
+    }    . oa
+  }
+  Text2 {
+    string "Hello, World!"
+    justification CENTER
+  }
+  Transform {
+    translation -10 -2 0
+    rotation -0 -0 -1  1.5707999
+  }
+  USE _+0
+}
