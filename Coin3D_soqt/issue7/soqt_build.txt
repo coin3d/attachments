@@ -1,0 +1,135 @@
+C:\Users\Van\Coin3D>cmake --build soqt_build --target INSTALL --config Release -- /nologo /verbosity:minimal /maxcpucount
+  Checking Build System
+  CMake does not need to re-run because C:/Users/Van/Coin3D/soqt_
+  build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/Van/Coin3D/soqt_
+  build/data/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/Van/Coin3D/soqt_
+  build/src/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/Van/Coin3D/soqt_
+  build/src/Inventor/Qt/common/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/Van/Coin3D/soqt_
+  build/test-code/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/Van/Coin3D/soqt_
+  build/cpack.d/CMakeFiles/generate.stamp is up-to-date.
+  Generating Inventor/Qt/moc_SoQtComponentP.icc
+  Generating Inventor/Qt/moc_SoQtGLWidgetP.icc
+  Generating Inventor/Qt/moc_SoQtMaterialList.icc
+  C:/Users/Van/Coin3D/soqt/src/Inventor/Qt/SoQtMaterialList.cpp(0
+  ): Note: No relevant classes found. No output generated.
+  Generating Inventor/Qt/moc_SoQtMaterialSliderSet.icc
+  Generating Inventor/Qt/moc_SoQtP.icc
+  Generating Inventor/Qt/moc_SoQtSignalThread.icc
+  Generating Inventor/Qt/moc_SoQtSliderSetBase.icc
+  Generating Inventor/Qt/moc_SoQtTransformSliderSet.icc
+  Generating Inventor/Qt/viewers/moc_SoQtExaminerViewerP.icc
+  Generating Inventor/Qt/viewers/moc_SoQtFullViewerP.icc
+  Generating Inventor/Qt/viewers/moc_SoQtPlaneViewerP.icc
+  Generating Inventor/Qt/widgets/moc_QtNativePopupMenu.icc
+  Generating Inventor/Qt/widgets/moc_SoQtGLArea.icc
+  Generating Inventor/Qt/widgets/moc_SoQtThumbWheel.icc
+  Building Custom Rule C:/Users/Van/Coin3D/soqt/src/CMakeLists.tx
+  t
+  CMake does not need to re-run because C:/Users/Van/Coin3D/soqt_
+  build/src/CMakeFiles/generate.stamp is up-to-date.
+  SoQt.cpp
+  SoQtComponent.cpp
+  SoQtGLWidget.cpp
+c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidget.cpp(191): e
+rror C2039: 'glSizeUnscaled': is not a member of 'SoQtGLWidgetP' [C:\Users\Van\Coin3D\soqt_build\src\SoQt.vcxproj]
+  c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidgetp.h(54): n
+  ote: see declaration of 'SoQtGLWidgetP'
+c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidget.cpp(523): e
+rror C2039: 'glSizeUnscaled': is not a member of 'SoQtGLWidgetP' [C:\Users\Van\Coin3D\soqt_build\src\SoQt.vcxproj]
+  c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidgetp.h(54): n
+  ote: see declaration of 'SoQtGLWidgetP'
+c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidget.cpp(527): e
+rror C2039: 'glSizeUnscaled': is not a member of 'SoQtGLWidgetP' [C:\Users\Van\Coin3D\soqt_build\src\SoQt.vcxproj]
+  c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidgetp.h(54): n
+  ote: see declaration of 'SoQtGLWidgetP'
+c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidget.cpp(786): e
+rror C2039: 'gl_changed': is not a member of 'SoQtGLWidgetP' [C:\Users\LeVan\Develo
+pment\SDE\Coin3D\soqt_build\src\SoQt.vcxproj]
+  c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidgetp.h(54): n
+  ote: see declaration of 'SoQtGLWidgetP'
+c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidget.cpp(793): e
+rror C2355: 'this': can only be referenced inside non-static member functions or no
+n-static data member initializers [C:\Users\Van\Coin3D\soqt_build
+\src\SoQt.vcxproj]
+c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidget.cpp(794): e
+rror C2355: 'this': can only be referenced inside non-static member functions or no
+n-static data member initializers [C:\Users\Van\Coin3D\soqt_build
+\src\SoQt.vcxproj]
+c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidget.cpp(795): e
+rror C2355: 'this': can only be referenced inside non-static member functions or no
+n-static data member initializers [C:\Users\Van\Coin3D\soqt_build
+\src\SoQt.vcxproj]
+c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidget.cpp(796): e
+rror C2355: 'this': can only be referenced inside non-static member functions or no
+n-static data member initializers [C:\Users\Van\Coin3D\soqt_build
+\src\SoQt.vcxproj]
+c:\users\Van\coin3d\soqt\src\inventor\qt\soqtglwidget.cpp(797): e
+rror C2355: 'this': can only be referenced inside non-static member functions or no
+n-static data member initializers [C:\Users\Van\Coin3D\soqt_build
+\src\SoQt.vcxproj]
+  SoQtImageReader.cpp
+  SoQtSignalThread.cpp
+  6DOFEvents.cpp
+  SoQtDevice.cpp
+  SoQtInputFocus.cpp
+  SoQtKeyboard.cpp
+  SoQtMouse.cpp
+  SoQtSpacenavDevice.cpp
+  ExaminerViewer.cpp
+  FullViewer.cpp
+  PlaneViewer.cpp
+  SoQtGLArea.cpp
+  SoQtThumbWheel.cpp
+  QtNativePopupMenu.cpp
+  SoAny.cpp
+  SoQtCommon.cpp
+  SoQtComponentCommon.cpp
+  Generating Code...
+  Compiling...
+  SoQtCursor.cpp
+  SoQtGLWidgetCommon.cpp
+  SoQtObject.cpp
+  SoQtRenderArea.cpp
+  SoQtDeviceCommon.cpp
+  SoQtInputFocusCommon.cpp
+  SoQtKeyboardCommon.cpp
+  SoQtMouseCommon.cpp
+  spwinput_x11.cpp
+  SoQtColorEditor.cpp
+  SoQtMaterialEditor.cpp
+  Engines.cpp
+  Format.cpp
+  RadioGroup.cpp
+  ClickCounter.cpp
+  ColorEditor.cpp
+  Frame.cpp
+  Image.cpp
+  Label.cpp
+  MaterialEditor.cpp
+  Generating Code...
+  Compiling...
+  Nodes.cpp
+  Pane.cpp
+  Position.cpp
+  RadioButton.cpp
+  SceneTexture2.cpp
+  Slider1.cpp
+  Slider2.cpp
+  ToggleButton.cpp
+  Translation.cpp
+  ViewpointWrapper.cpp
+  ViewportFix.cpp
+  SoQtConstrainedViewer.cpp
+  SoQtExaminerViewer.cpp
+  SoQtFlyViewer.cpp
+  SoQtFullViewer.cpp
+  SoQtPlaneViewer.cpp
+  SoQtViewer.cpp
+  SoAnyThumbWheel.cpp
+  SoQtPopupMenu.cpp
+  Generating Code...
