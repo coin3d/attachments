@@ -1,0 +1,95 @@
+C:\Users\Van\Coin3D>cmake -Hsoqt -Bsoqt_build -G "Visual Studio 15 2017 Win64" -T host=x64 -DCMAKE_INSTALL_PREFIX=C:\Users\Van\Coin3D\4.0.0\x64-msvc -DCMAKE_PREFIX_PATH=C:\Users\Van\Coin3D\4.0.0\x64-msvc;C:\Users\Van\Qt\5.12.2\x64-msvc -DSOQT_BUILD_DOCUMENTATION=OFF
+-- Selecting Windows SDK version 10.0.17763.0 to target Windows 10.0.17134.
+-- The C compiler identification is MSVC 19.16.27027.1
+-- The CXX compiler identification is MSVC 19.16.27027.1
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenGL: opengl32
+-- Looking for __func__
+-- Looking for __func__ - found
+-- Looking for __PRETTY_FUNCTION__
+-- Looking for __PRETTY_FUNCTION__ - not found
+-- Looking for __FUNCTION__
+-- Looking for __FUNCTION__ - found
+-- Looking for include file windows.h
+-- Looking for include file windows.h - found
+-- Looking for include files windows.h, GL/gl.h
+-- Looking for include files windows.h, GL/gl.h - found
+-- Looking for include files windows.h, GL/glu.h
+-- Looking for include files windows.h, GL/glu.h - found
+-- Looking for include file dlfcn.h
+-- Looking for include file dlfcn.h - not found
+-- Looking for include file inttypes.h
+-- Looking for include file inttypes.h - found
+-- Looking for include file memory.h
+-- Looking for include file memory.h - found
+-- Looking for include file netinet/in.h
+-- Looking for include file netinet/in.h - not found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Performing Test HAVE_PTHREAD_TIMESPEC_NSEC
+-- Performing Test HAVE_PTHREAD_TIMESPEC_NSEC - Failed
+-- Performing Test HAVE_GLX
+-- Performing Test HAVE_GLX - Failed
+-- Performing Test HAVE_SBIMAGE_ADDREADIMAGECB
+-- Performing Test HAVE_SBIMAGE_ADDREADIMAGECB - Success
+-- Performing Test HAVE_SOCAMERA_SETSTEREOMODE
+-- Performing Test HAVE_SOCAMERA_SETSTEREOMODE - Success
+-- Performing Test HAVE_SOCONTEXTHANDLER
+-- Performing Test HAVE_SOCONTEXTHANDLER - Success
+-- Performing Test HAVE_SOKEYBOARDEVENT_DELETE
+-- Performing Test HAVE_SOKEYBOARDEVENT_DELETE - Success
+-- Performing Test HAVE_SOMOUSEBUTTONEVENT_BUTTON5
+-- Performing Test HAVE_SOMOUSEBUTTONEVENT_BUTTON5 - Success
+-- Performing Test HAVE_SOPOLYGONOFFSET
+-- Performing Test HAVE_SOPOLYGONOFFSET - Success
+-- Performing Test HAVE_SORTED_LAYERS_BLEND
+-- Performing Test HAVE_SORTED_LAYERS_BLEND - Success
+-- Performing Test HAVE_SOVRMLBACKGROUND
+-- Performing Test HAVE_SOVRMLBACKGROUND - Success
+-- Performing Test HAVE_SOVRMLFOG
+-- Performing Test HAVE_SOVRMLFOG - Success
+-- Performing Test HAVE_SOVRMLMATERIAL
+-- Performing Test HAVE_SOVRMLMATERIAL - Success
+-- Performing Test HAVE_SOVRMLVIEWPOINT
+-- Performing Test HAVE_SOVRMLVIEWPOINT - Success
+-- Looking for include file stdint.h
+-- Looking for include file stdint.h - found
+-- Looking for include file stdlib.h
+-- Looking for include file stdlib.h - found
+-- Looking for include file strings.h
+-- Looking for include file strings.h - not found
+-- Looking for include file string.h
+-- Looking for include file string.h - found
+-- Looking for include file sys/stat.h
+-- Looking for include file sys/stat.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - not found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - not found
+-- Looking for 15 include files assert.h, ..., time.h
+-- Looking for 15 include files assert.h, ..., time.h - found
+-- Looking for include files windows.h, tlhelp32.h
+-- Looking for include files windows.h, tlhelp32.h - found
+-- Performing Test HAVE_WIN32_API
+-- Performing Test HAVE_WIN32_API - Success
+-- Looking for LoadLibrary
+-- Looking for LoadLibrary - found
+-- Looking for GetEnvironmentVariable
+-- Looking for GetEnvironmentVariable - found
+-- Looking for include file X11/Xlib.h
+-- Looking for include file X11/Xlib.h - not found
+-- Mercurial found at C:/Users/Van/TortoiseHg-4.6.1/hg.exe, PACKAGE_BUILD_NUMBER set to 2047
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Van/Coin3D/soqt_build
